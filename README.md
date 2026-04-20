@@ -12,6 +12,30 @@ El objetivo es simular la organización de un sitio web real, aplicando buenas p
 
 ---
 
+## Organización del repositorio
+
+A continuación se muestra la estructura de carpetas y archivos que deben crear:
+
+```plain
+proyecto-equipo/
+│
+├── index.html                      # Página principal (home)
+├── css/
+│   └── estilo.css                  # Hoja de estilos común (consistencia visual)
+│
+└── portfolios/                     # Carpeta que agrupa los portafolios individuales
+    ├── angel/                        # Carpeta de cada integrante
+    │   ├── angel-index.html              # Página "Sobre mí" del portafolio
+    │   └── angel-proyectos.html          # Página "Proyectos" del portafolio
+    │
+    ├── paulo/                       # Otro integrante (ejemplo)
+    │   ├── paulo-index.html
+    │   └── paulo-proyectos.html
+    │
+    └── carlos/                     # Otro integrante 
+        ├── carlos-index.html
+        └── carlos-proyectos.html
+
 ## Instrucciones
 
 ### 1. Trabajo en equipo
