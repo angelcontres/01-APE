@@ -35,7 +35,7 @@ proyecto-equipo/
     └── carlos/                     # Otro integrante 
         ├── carlos-index.html
         └── carlos-proyectos.html
-
+```
 ## Instrucciones
 
 ### 1. Trabajo en equipo
