@@ -1,35 +1,10 @@
-.foto-perfil {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    object-fit: cover;
 
-}
-.profile{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-.profile-img {
-    display: flex;
-    justify-content: right;
-    
-}
 
-/* Viñetas estilo CMD para la navegación */
-.cmd-nav li {
-    display: flex;
-    align-items: center;
-}
 
-.cmd-nav li::before {
-    content: ">";
-    color: #84ffc9;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-right: 8px;
-    font-family: 'Fira Code', 'Cascadia Code', 'Consolas', 'Courier New', monospace;
-}
+
+
+
+
 
 /* Estilos para la sección del botón y el botón en sí */
 .my-projects {
@@ -57,8 +32,7 @@
     transform: translateY(-3px);
 }
 
-.img-carlos-profile {
-    float: right;
-    margin-right: 40px;
-    shape-outside: circle(50% at 50% 50%) margin-box;
+ul li {
+    padding-left: 50px;
+    margin-bottom: 10px;
 }

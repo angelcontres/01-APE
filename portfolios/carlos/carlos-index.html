@@ -5,70 +5,174 @@
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="/../css/estilo.css">
-   <link rel="stylesheet" href="./carlos-css/styles.css">
+   <!-- <link rel="stylesheet" href="./carlos-css/styles.css"> -->
    <title>Carlos's Portfolio</title>
 </head>
 
 <body>
+   <nav>
+      <ul>
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="../paulo/paulo-index.html">Paulo Orrala</a></li>
+        <li><a href="../angel/angel-index.html">Angel Villon</a></li>
+        <li><a href="../carlos/carlos-index.html">Carlos Patiño</a></li>
+      </ul>
+    </nav>
    <header>
-      <nav class="cmd-nav">
-         <ul>
-            <li><a href="../../index.html">Inicio</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#proyectos">Mis proyectos</a></li>
-         </ul>
-      </nav>
+      <h1>¡Hola mundo! Soy Carlos Patiño</h1>
+      <h2>Estudiante de Software en la Universidad Estatal Península de Santa Elena</h2>
+            
    </header>
-   
+   <nav class="cmd-nav">
+      <ul>
+         <li><a href="#sobre-mi">Sobre mí</a></li>
+         <li><a href="#habilidades">Stack tecnológico</a></li>
+         <li><a href="#proyectos">Mis proyectos</a></li>
+         <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+   </nav>
    <main>
-      <section class="welcome">
-         <h1>¡Hola mundo! Soy Carlos Patiño</h1>
-         <h2>Estudiante de Software en la Universidad Estatal Península de Santa Elena</h2>
-         <div class="profile-img">
-            <a
-               href="https://github.com/carlosfernandev"
-               target="_blank"
-               title="Visitar mi GitHub"
-            >
-            <img
-               src="https://github.com/carlosfernandev.png"
-               alt="Foto de perfil de Carlos Patiño"
-               class="perfil-img"
-            />
-            </a>
-         </div>
-      </section>
-      <section class="profile">
-         <div class="profile-data">
-            
-            <h2>Sobre mí</h2>
-            
-            <div class="profile-description">
-               <p>Soy estudiante de Software en la Universidad Estatal Península de Santa Elena. Estoy cursando el sexto semestre de mi carrera de grado, fuera de mi ciudad natal,
-                  <br>pero descubriendo nuevas habilidades y personas que alimentan mis gustos por la tecnología.
-                  <br>Actualmente estoy considerando aprender el funcionamiento de la IA para crear agentes racionales, y de esta manera levantar proyectos frutíferos en mi camino estudiantil.</p>
-               
-            </div>
-         </div>
-
+      <section id="sobre-mi" class="perfil-principal">
+         <h2>Sobre mí</h2>
+         <a
+            href="https://github.com/carlosfernandev"
+            target="_blank"
+            title="Visitar mi GitHub"
+         >
+         <img
+            src="https://github.com/carlosfernandev.png"
+            alt="Foto de perfil de Carlos Patiño"
+            class="perfil-img"
+         />
+         </a>
          
-      </section>
+         <p>
+            Soy estudiante de Ingeniería en Software en la Universidad Estatal Península de Santa Elena. En este viaje,
+            estoy descubriendo nuevas habilidades y personas que alimentan mis gustos por el desarrollo, el trabajo en equipo, la gestión de proyectos y la tecnología en general.
+            Actualmente estoy considerando aprender el funcionamiento de la IA para crear agentes racionales, y de esta manera levantar proyectos frutíferos en mi camino estudiantil.
+         <br><br>
+            En el transcurso de mi carrera, me he dado cuenta que ser objetivo no siempre define ser específico al expresar algo, sino que podemos ahondar un tema con diferentes enfoques;
+            esto va tanto para cosas triviales como para conceptos difíciles.
+         
+            Nuestra capacidad de abstracción permite conectar con las necesidades subjetivas, ortodoxas, las que están al margen de la explicación del usuario.
+         </p>
 
+         <div class="enlaces-contacto">
+          <a
+            href="https://github.com/carlosfernandev"
+            target="_blank"
+            class="boton-contacto"
+            >👾 GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/carlos-fernando-pati%C3%B1o-garc%C3%ADa-570a6b3b2/"
+            target="_blank"
+            class="boton-contacto"
+            >💼 LinkedIn</a
+          >
+        </div>
+
+      </section>
+      <section id="habilidades" class="habilidades">
+        <h2>Stack Tecnológico</h2>
+        <ul>
+          <li>
+            <strong>Backend:</strong> Creación de APIs REST con
+            <strong>Java y SpringBoot</strong>.
+          </li>
+          
+          <li>
+            <strong>Frontend:</strong> 
+            
+            <ul>
+               <li>HTML vanilla, JS y CSS vanilla</li>
+               <li> <strong>Frameworks:</strong> <strong>React</strong> y <strong>Angular</strong> (Aprendiendo actualmente)</li> 
+               
+            </ul>
+            
+          </li>
+          <li>
+            <strong>Entornos de Desarrollo:</strong>
+            <ul>
+               <li>Control de versiones con <strong>Git</strong> y <strong>GitHub</strong>.</li>
+               <li> <strong>Bash</strong></li>
+            </ul>
+          </li>
+          <li>
+            <Strong>Bases de datos:</Strong>
+            <ul>
+               <li> <strong>PostgreSQL</strong></li>
+               <li> <strong>SQLServer</strong></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="proyectos" class="proyectos">
+         <h2>Conoce mis proyectos</h2>
+         <ul>
+            <li>
+               <strong>Control de logística de una fábrica de madera</strong>: Sistema CRUD enfocado el registro en tiempo real de datos sobre la madera (medidas, pesos, volúmenes, cualidades, etc) como proyecto de prácticas pre-profesionales en una empresa de balsa. Conformado por un dashboard, tablas, y formularios de registro tanto en web como en móvil.
+               <br>
+               Es un sistema que tiene backend, frontend web y frontend móvil por separado.
+            </li>
+            <ul>
+               <li> <strong>Backend:</strong> Java y SpringBoot</li>
+               <li> <strong>Frontend:</strong> React y React Native</li>
+               <li> <strong>Base de datos:</strong> PostgreSQL</li>
+            </ul>
+            <div style="text-align: center; margin: 20px 0;">
+               <img src="../../assets/img/img-front-movil.png" alt="Evidencia Frontend Móvil" style="max-width: 250px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+            </div>
+            <div class="enlaces-contacto">
+              <a
+                href="https://github.com/carlosfernandev/balsagood-app"
+                target="_blank"
+                class="boton-contacto"
+                >👾 Backend</a
+              >
+              <a
+                href="https://github.com/carlosfernandev/balsagood-dashboard"
+                target="_blank"
+                class="boton-contacto"
+                >👾 Frontend Web</a
+              >
+              <a
+                href="https://github.com/carlosfernandev/balsagood-front-app"
+                target="_blank"
+                class="boton-contacto"
+                >👾 Frontend móvil</a
+              >
+            </div>
+         </ul>
+         <!-- <a href="carlos-proyectos.html" class="btn-proyectos">Mis proyectos</a> -->
+      </section>
       <section id="hobbies" class="hobbies">
          <h2>Hobbies</h2>
          <h3>Básquetbol 🏀</h3>
+         <ul>
+          <li>
+            A parte de jugarlo por salud o diversión, también me ha permitido conocer grandes personas.
+          </li>
+          <li>
+            Aprendí lo que es la disciplina, y cómo aplicarla en diferentes ámbitos.
+          </li>
+         </ul>
          <h3>Videojuegos 🎮</h3>
-         <h3>Amante del café por las mañanas☕</h3>
+         <ul>
+          <li>
+            Desde niño hasta la actualidad, los videojuegos han evolucionado la forma en que pueden cambiarnos la vida 🎮.
+          </li>
+          <li>
+            Me gusta la capacidad que tienen de hacer ver la vida de formas distintas y cómo podemos conectar con personas de otros lugares.
+          </li>
+         </ul>
       </section>
-      <section >
-         <h2>Conoce mis proyectos</h2>
-         <h3>Syncopation</h3>
-         <a href="carlos-proyectos.html" class="btn-proyectos">Mis proyectos</a>
-      </section>
+      <a href="../../index.html" class="boton-volver">Volver al inicio</a>
+      <a href="#" class="boton-volver">Volver arriba</a>
    </main>
    <footer>
-      Contacto:
-      <a href="https://www.linkedin.com/in/carlos-fernando-pati%C3%B1o-garc%C3%ADa-570a6b3b2/">LinkedIn</a>
+      <p>&copy; 2026 - Equipo de desarrollo. Todos los derechos reservados.</p>
+      <p>Actividad 2 (01 APE) - HTML5 semántico</p>
    </footer>
 </body>
 
