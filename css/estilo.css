@@ -195,7 +195,7 @@ footer p {
   box-shadow: 0 0 20px rgba(45, 212, 255, 0.5);
 }
 
-.habilidades {
+.seccion-detalles {
   background: #11203f;
   border: 1px solid #284172;
   padding: 15px;
@@ -203,7 +203,7 @@ footer p {
   margin: 20px 0;
 }
 
-.habilidades ul {
+.seccion-detalles ul {
   margin-left: 25px;
 }
 
