@@ -223,22 +223,6 @@ footer p {
   color: #0b1021;
 }
 
-@media (max-width: 680px) {
-  body {
-    padding: 12px;
-  }
-
-  header,
-  nav,
-  main,
-  footer {
-    padding: 14px;
-  }
-
-  nav ul {
-    gap: 10px;
-  }
-}
 
 .enlaces-contacto {
   display: flex;
